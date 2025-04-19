@@ -5,7 +5,7 @@ import re
 
 class MusiclistSpider(scrapy.Spider):
     name = "musicList"
-    allowed_domains = ["music.163.com"]
+    allowed_domains = ["music.163.com","p1.music.126.net"]    #后面一个是图片对应的域名
     # start_urls = ["https://music.163.com/discover/playlist"]
     start_urls = ["https://music.163.com/#/discover/playlist/?order=hot&cat=%E5%85%A8%E9%83%A8&limit=35&offset=175"]
 
